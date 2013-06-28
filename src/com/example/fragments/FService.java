@@ -93,7 +93,7 @@ public class FService extends Service {
                                 }
 
                             if ((timerCycle && (refreshType == 1)) || ((distanceDelta > (5 + delta * 5)) && (refreshType == 0))){
-                                if (toSend) {new HttpAsyncTask().execute("http://" + address + "/tracker.php?key=" + login + "&x=" + String.format("%.5f", coordinates.longitude).replace(",",".")  + "&y=" + String.format("%.5f", coordinates.latitude).replace(",","."));}
+                                if (toSend) {new HttpAsyncTask().execute("http://" + address + "/tracker.php?sid=" + login + "&x=" + String.format("%.5f", coordinates.longitude).replace(",",".")  + "&y=" + String.format("%.5f", coordinates.latitude).replace(",","."));}
                                 lastLatitude = coordinates.latitude;
                                 lastLongitude = coordinates.longitude;
                                 if (refreshType == 1) {

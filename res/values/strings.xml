@@ -8,7 +8,7 @@
     <string name="buttonGPS">Данные GPS</string>
     <string name="buttonSettings">Настройки</string>
     <string name="buttonExit">Выход</string>
-    <string name="LoginEdit">Имя пользователя</string>
+    <string name="LoginEdit">sid</string>
     <string name="AddressEdit">Адрес сервера</string>
     <string name="SettingsFragment">Настройки</string>
     <string name="buttonSave">Сохранить</string>
